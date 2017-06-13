@@ -7,7 +7,6 @@ const {
   bool,
   func,
   object,
-  element,
   shape,
   oneOf,
   oneOfType,
@@ -109,13 +108,13 @@ export default {
   allowSwipeToNext: bool,
   noSwiping: bool,
   noSwipingClass: string,
-  swipeHandler: oneOfType([string, element]),
+  swipeHandler: oneOfType([string, object]),
 
   // Navigation Controls
   uniqueNavElements: bool,
 
   // Pagination
-  pagination: oneOfType([string, element]),
+  pagination: oneOfType([string, object]),
   paginationType: string,
   paginationHide: bool,
   paginationClickable: bool,
@@ -130,7 +129,7 @@ export default {
   prevButton: oneOfType([string, object]),
 
   // Scrollbar
-  scrollbar: oneOfType([string, element]),
+  scrollbar: oneOfType([string, object]),
   scrollbarHide: bool,
   scrollbarDraggable: bool,
   scrollbarSnapOnRelease: bool,
@@ -150,7 +149,7 @@ export default {
   mousewheelReleaseOnEdges: bool,
   mousewheelInvert: bool,
   mousewheelSensitivity: number,
-  mousewheelEventsTarged: oneOfType([string, element]),
+  mousewheelEventsTarged: oneOfType([string, object]),
 
   // Hash/History Navigation
   hashnav: bool,
