@@ -41,8 +41,8 @@ class ReactSwiper extends React.Component {
         ref={(el) => { this.swiperContainer = el; }}
       >
         <div className={this.props.wrapperClass}>
-          {this.props.children.map(child => (
-            <div key={child.key} className={this.props.slideClass}>
+          {this.props.children.map((child, idx) => (
+            <div key={child.key || idx} className={this.props.slideClass}>
               {child}
             </div>
           ))}
