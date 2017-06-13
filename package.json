@@ -12,8 +12,12 @@
     "build": "npm run eslint && babel src --out-dir lib",
     "prepublish": "npm run build"
   },
+  "peerDependencies": {
+    "react": ">= 15.5.0",
+    "prop-types": ">= 15.5.0"
+  },
   "dependencies": {
-    "react": "^15.5.4",
+    "lodash.pickby": "^4.6.0",
     "swiper": "^3.4.2"
   },
   "devDependencies": {
