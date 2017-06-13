@@ -49,5 +49,5 @@ Use a ref and then access the `swiper` property of the component.
             <div>My Third Slide</div>
          </ReactSwiper>
       );
-   )
+    )
 
