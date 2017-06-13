@@ -1,6 +1,6 @@
 {
   "name": "react-swiper-id",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React component binding for Swiper",
   "main": "./lib/index.js",
   "repository": "https://github.com/factore/react-swiper-id",
